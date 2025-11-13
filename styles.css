@@ -1,0 +1,127 @@
+.topheader {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.menu-horizontal li a {
+  display: block;
+  text-decoration: none;
+}
+
+.menu-horizontal li a:hover {
+  color: red;
+}
+
+.menu-vertical {
+  padding: 0;
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 9.375rem;
+  background-color: gainsboro;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.menu-vertical li a {
+  padding: 0.938rem 0.938rem 0.938rem 1.25rem;
+  margin: 0.313rem;
+}
+
+.menu-vertical li a:hover {
+  background-color: green;
+  color: white;
+}
+
+.logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  display: flex;
+  align-items: left;
+}
+/*seccion menu*/
+.seccion-productos {
+  padding: 3.75rem 1.25rem;
+  background-color: #d2ebe0;
+}
+.division-general-productos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 1.25rem;
+}
+.division-productos-txt {
+  flex: 1;
+}
+.division-productos-txt h1 {
+  color: green;
+  margin-bottom: 0.938rem;
+}
+.division-productos-txt p {
+  color: grey;
+  line-height: 1.5;
+  text-align: justify;
+}
+.division-productos-img {
+  flex: 1;
+}
+.division-productos-img img {
+  width: 100%;
+  max-width: 18.75rem;
+}
+/*seccion menu-banca*/
+.seccion-banca {
+  padding: 3.75rem 1.25rem;
+  background-color: #d2ebe0;
+}
+.division-banca-productos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.division-banca-txt {
+  flex: 1;
+}
+.division-banca-txt h1 {
+  color: green;
+  margin-bottom: 0.938rem;
+}
+.division-banca-txt p {
+  color: grey;
+  line-height: 1.6;
+  text-align: justify;
+}
+.division-banca-video {
+  flex: 1;
+}
+.division-banca-video iframe {
+  width: 100%;
+  max-width: 31.25rem;
+}
+
+.seccion-footer {
+  background-color: #096800;
+  color: white;
+  text-align: center;
+  padding: 1.25rem 0;
+  margin-top: 3.125rem;
+}
