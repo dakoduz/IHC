@@ -127,7 +127,7 @@
   margin-bottom: 2.5rem;
 }
 .div-cont-formulario {
-  background-color: rgb(34, 192, 192);
+  background-color: rgb(198 255 183);
   padding: 1.875rem;
   border: 0.125rem solid black;
   border-radius: 0.625rem;
@@ -161,7 +161,7 @@ select {
   padding: 0.625rem;
   margin: 0;
   border: 0.063rem;
-  background-color: rgb(195, 174, 214);
+  background-color: rgb(184 214 174);
   border-radius: 0.313rem;
 }
 
