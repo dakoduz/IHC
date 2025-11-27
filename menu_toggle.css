@@ -15,7 +15,7 @@
     color: black;
   }
 
-  .Menu-Horizontal {
+  .menu-horizontal {
     display: none; /* Ocultar menú horizontal por defecto */
     flex-direction: column; /* Mostrarlo en vertical al activarse */
     width: 100%;
@@ -25,13 +25,14 @@
     left: 0;
   }
 
-  .Menu-Horizontal.active {
+  .menu-horizontal.active {
     display: flex; /* Mostrar menú al activar la clase */
   }
 
-  .Menu-Horizontal li {
+  .menu-horizontal li {
     border-bottom: 1px solid #ccc; /* Líneas separadoras */
   }
 }
+
 
 
