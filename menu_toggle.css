@@ -1,6 +1,6 @@
 /* BOTÓN HAMBURGUESA (ESCONDE EN DESKTOP) */
 .menu-toggle {
-  /*display: none;  Oculto por defecto */
+  display: none;  /*Oculto por defecto */
   font-size: 2rem; /* Tamaño del ícono hamburguesa */
   background: none; /* Sin fondo */
   border: none; /* Sin bordes */
@@ -33,4 +33,5 @@
     border-bottom: 1px solid #ccc; /* Líneas separadoras */
   }
 }
+
 
