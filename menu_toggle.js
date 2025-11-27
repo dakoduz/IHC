@@ -2,7 +2,7 @@
 const btn = document.querySelector(".menu-toggle");
 
 // Selecciona el menú horizontal
-const menu = document.querySelector(".Menu-Horizontal");
+const menu = document.querySelector(".menu-Horizontal");
 
 // Al hacer clic en el botón de hamburguesa
 btn.addEventListener("click", () => {
@@ -13,3 +13,4 @@ btn.addEventListener("click", () => {
   // (opcional) También puedes alternar una clase en el botón si quieres cambiar su apariencia
   // btn.classList.toggle("open");
 });
+
