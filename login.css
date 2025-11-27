@@ -6,7 +6,7 @@
     min-height: 100vh;
     width: 100%;
     /* Fondo atractivo para la vista de escritorio */
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    background: linear-gradient(135deg, #a8ff78 0%, #78ffd6 100%);
     padding: 1.25rem; /* 20px de padding */
 }
 
@@ -108,4 +108,5 @@
     }
 
 }
+
 
